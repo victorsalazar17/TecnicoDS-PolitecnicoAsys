@@ -6,8 +6,8 @@ public class Facturacion {
 
     private List<Factura> facturas;
 
-    public Facturacion(List<Factura> facturasConDescuento) {
-        this.facturas = facturasConDescuento;
+    public Facturacion(List<Factura> facturas) {
+        this.facturas = facturas;
     }
 
     public void mostrarTotal(){
